@@ -14,7 +14,14 @@ module.exports = {
     }),
   ],
   devServer: {
-    contentBase: "./dist",
+    static: [
+      {
+        directory: path.join(__dirname, "dist"),
+      },
+      {
+        directory: path.join(__dirname, "src"),
+      },
+    ],
     hot: true,
     proxy: {
       "/api": {
