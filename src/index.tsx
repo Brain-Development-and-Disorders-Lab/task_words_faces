@@ -40,6 +40,9 @@ const generateTrial = (type: "faces" | "words" | "cars"): any => {
   };
 
   if (_.isEqual(type, "faces")) {
+    // Generate the sex of the face
+    const sex = experiment.random() < 0.5 ? "f" : "m";
+
     // Generate a random array
     const faceIndex = [];
     for (let i = 1; i <= 30; i++) {
@@ -51,23 +54,23 @@ const generateTrial = (type: "faces" | "words" | "cars"): any => {
     faceIndex.splice(firstFace - 1, 1);
 
     // Setup the first stimulus presentation
-    centralPresentation.stimulus = `<img class="profile" src="img/m/m${firstFace}.jpg" />`;
+    centralPresentation.stimulus = `<img class="profile" src="img/${sex}/${sex}${firstFace}.jpg" />`;
 
     // Setup the second stimulus presentation
     if (isSame) {
       // If the same stimulus is being presented, set the side of presentation
       if (isLeft) {
-        visualFieldPresentation.leftStimulus = `<img class="profile" src="img/m/m${firstFace}.jpg" />`;
+        visualFieldPresentation.leftStimulus = `<img class="profile" src="img/${sex}/${sex}${firstFace}.jpg" />`;
       } else {
-        visualFieldPresentation.rightStimulus = `<img class="profile" src="img/m/m${firstFace}.jpg" />`;
+        visualFieldPresentation.rightStimulus = `<img class="profile" src="img/${sex}/${sex}${firstFace}.jpg" />`;
       }
     } else {
       // If a different stimulus is being presented, select a second stimulus and the side of presentation
       const secondFace = Math.round(experiment.random() * faceIndex.length);
       if (isLeft) {
-        visualFieldPresentation.leftStimulus = `<img class="profile" src="img/m/m${secondFace}.jpg" />`;
+        visualFieldPresentation.leftStimulus = `<img class="profile" src="img/${sex}/${sex}${secondFace}.jpg" />`;
       } else {
-        visualFieldPresentation.rightStimulus = `<img class="profile" src="img/m/m${secondFace}.jpg" />`;
+        visualFieldPresentation.rightStimulus = `<img class="profile" src="img/${sex}/${sex}${secondFace}.jpg" />`;
       }
     }
   }
