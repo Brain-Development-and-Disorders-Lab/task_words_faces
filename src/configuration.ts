@@ -19,9 +19,7 @@ export const Configuration = {
   contact: "henry.burgess@wustl.edu",
 
   // Manipulations that are configured in Gorilla
-  manipulations: {
-    variableA: 1,
-  },
+  manipulations: {},
 
   // Collection of any stimuli used in the trials
   stimuli: {},
@@ -30,12 +28,10 @@ export const Configuration = {
   resources: {},
 
   // Seed for RNG
-  seed: 0.1234,
+  seed: 0.0836,
 
   // Initial experiment state
-  state: {
-    counter: 0,
-  },
+  state: {},
 
   // Force fullscreen when deployed
   fullscreen: process.env.NODE_ENV !== "development",

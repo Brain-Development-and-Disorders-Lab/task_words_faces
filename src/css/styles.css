@@ -3,3 +3,30 @@ body {
   background: black;
   color: white;
 }
+
+img.profile {
+  filter: grayscale();
+}
+
+div.profile-container {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.profile-single {
+  display: flex;
+  justify-content: center;
+}
+
+div.profile-double {
+  display: flex;
+  flex-grow: 1;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: space-between;
+}
