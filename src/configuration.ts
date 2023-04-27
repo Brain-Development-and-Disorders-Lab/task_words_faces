@@ -11,12 +11,28 @@ import { LogLevel } from "consola";
 // Configuration and other required data
 export const Configuration = {
   // General information
-  name: "Template task",
-  studyName: "template-task",
+  name: "Lateralization Task",
+  studyName: "task_lateralization",
+  target: __TARGET__,
 
   // Error screen configuration
   allowParticipantContact: false,
   contact: "henry.burgess@wustl.edu",
+
+  // Input configuratikon
+  inputs: {
+    desktop: {
+      left: "f",
+      right: "j",
+      submit: " ",
+    },
+    spectrometer: {
+      left: "1",
+      right: "2",
+      submit: "3",
+      trigger: "5",
+    },
+  },
 
   // Manipulations that are configured in Gorilla
   manipulations: {},
