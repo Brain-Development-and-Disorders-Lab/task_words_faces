@@ -5613,7 +5613,7 @@ json5@^1.0.1:
   dependencies:
     minimist "^1.2.0"
 
-jspsych@^6.0.0, jspsych@^6.3.0:
+jspsych@^6.3, jspsych@^6.3.0:
   version "6.3.1"
   resolved "https://registry.yarnpkg.com/jspsych/-/jspsych-6.3.1.tgz#9d4335f03ed30a541acd7e9f3f8514cd64d92616"
   integrity sha512-MtjovVPJw6tL/d5RAxwojixBy3HD0EnCcByF5+L01lbW5MELIwnon74XI6sD/WNBufvl86HEoIV/hFV04GB17Q==

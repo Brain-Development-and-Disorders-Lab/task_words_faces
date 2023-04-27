@@ -1,1 +1,5 @@
 /* File to apply custom styles to the task */
+body {
+  background: black;
+  color: white;
+}

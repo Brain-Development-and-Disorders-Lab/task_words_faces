@@ -1,9 +1,9 @@
 {
-  "name": "template_task_static",
+  "name": "task_lateralization",
   "version": "1.0.0",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
-  "repository": "https://github.com/Brain-Development-and-Disorders-Lab/template_task_static.git",
+  "repository": "https://github.com/Brain-Development-and-Disorders-Lab/task_lateralization.git",
   "author": "Henry Burgess <henry.burgess@wustl.edu>",
   "license": "MIT",
   "scripts": {
@@ -18,7 +18,7 @@
     "consola": "^2.15.3",
     "grommet": "^2.20.1",
     "grommet-icons": "^4.7.0",
-    "jspsych": "^6.0.0",
+    "jspsych": "^6.3",
     "neurocog": "^0.3.8"
   },
   "devDependencies": {
