@@ -14,7 +14,7 @@ module.exports = (env) => {
     devtool: "inline-source-map",
     plugins: [
       new HtmlWebpackPlugin({
-        title: "Lateralization Task",
+        title: "Words and Faces Task",
       }),
       new DefinePlugin({
         __TARGET__: JSON.stringify(env.target || "desktop"),

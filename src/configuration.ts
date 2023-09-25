@@ -11,15 +11,15 @@ import { LogLevel } from "consola";
 // Configuration and other required data
 export const Configuration = {
   // General information
-  name: "Lateralization Task",
-  studyName: "task_lateralization",
+  name: "Words and Faces Task",
+  studyName: "task_words_faces",
   target: __TARGET__,
 
   // Error screen configuration
   allowParticipantContact: false,
   contact: "henry.burgess@wustl.edu",
 
-  // Input configuratikon
+  // Input configuration
   inputs: {
     desktop: {
       left: "f",
