@@ -1,6 +1,6 @@
-# Lateralization Task
+# Words and Faces Task
 
-> A jsPsych implementation of the lateralization task described in Dundas et al. (2013), *The Joint Development of Hemispheric Lateralization for Words and Faces*, [https://doi.org/10.1037/a0029503](https://doi.org/10.1037/a0029503).
+> A jsPsych implementation of the words and faces task described in Dundas et al. (2013), *The Joint Development of Hemispheric Lateralization for Words and Faces*, [https://doi.org/10.1037/a0029503](https://doi.org/10.1037/a0029503).
 
 ## Commands 👨‍💻
 

@@ -81,7 +81,7 @@ const generateTrial = (type: "faces" | "words" | "cars"): any => {
       // Fixation cross
       {
         stimulus: '<div style="font-size:60px;">+</div>',
-        choices: "NO_KEYS",
+        choices: jsPsych.NO_KEYS,
         trial_duration: duration,
       },
       // Centrally-presented stimulus
@@ -93,7 +93,7 @@ const generateTrial = (type: "faces" | "words" | "cars"): any => {
             </div>
           </div>
         `,
-        choices: "NO_KEYS",
+        choices: jsPsych.NO_KEYS,
         trial_duration: 750,
       },
       // LVF or RVF stimulus
@@ -108,7 +108,7 @@ const generateTrial = (type: "faces" | "words" | "cars"): any => {
             </div>
           </div>
         `,
-        choices: "NO_KEYS",
+        choices: jsPsych.NO_KEYS,
         trial_duration: 150,
       },
       // Response
