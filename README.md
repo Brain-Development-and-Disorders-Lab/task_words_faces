@@ -2,7 +2,7 @@
 
 > A jsPsych implementation of the words and faces task described in Dundas et al. (2013), *The Joint Development of Hemispheric Lateralization for Words and Faces*, [https://doi.org/10.1037/a0029503](https://doi.org/10.1037/a0029503).
 
-## Commands 👨‍💻
+## Commands
 
 A number of developer commands have been configured for ease of development. The `Yarn` package manager is used in this repository and should be used to run these commands.
 
@@ -16,7 +16,15 @@ A number of developer commands have been configured for ease of development. The
 
 Face images courtesy of Michael J. Tarr, Carnegie Mellon University, [http://www.tarrlab.org/](http://www.tarrlab.org/). Funding provided by NSF award 0339122.
 
-## Contribution 👉
+## License
 
-- Issues, bugs, or suggestions? File a new issue under the `Issues` tab.
-- Reach out to [henry.burgess@wustl.edu](mailto:henry.burgess@wustl.edu) if you want to contribute, more than happy to discuss.
+<!-- CC BY-NC-SA 4.0 License -->
+<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">
+  <img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" />
+</a>
+<br />
+This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a>.
+
+## Issues and Feedback
+
+Please contact **Henry Burgess** <[henry.burgess@wustl.edu](mailto:henry.burgess@wustl.edu)> for all code-related issues and feedback.
